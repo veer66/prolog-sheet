@@ -12,3 +12,15 @@
 ## How to change working directory
 
 * [working_directory](https://www.swi-prolog.org/pldoc/man?predicate=working_directory%2f2)
+
+### Example
+
+```
+?- working_directory(_, '/Users/veer/Desktop').
+```
+
+## How to facts and rules
+
+```
+?- [ancestor.prolog].
+```
