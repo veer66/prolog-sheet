@@ -41,3 +41,16 @@ ancestor(A, B) :- parent(A, X), ancestor(X, B).
 ```
 ?- [ancestor.prolog].
 ```
+
+## Query
+
+### True/False
+
+```Prolog
+?- parent(david, jim).
+false.
+
+?- parent(david, john).
+true.
+```
+
