@@ -54,3 +54,9 @@ false.
 true.
 ```
 
+### Variable
+
+```Prolog
+?- parent(david, X).
+X = john.
+```
