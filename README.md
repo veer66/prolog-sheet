@@ -60,3 +60,13 @@ true.
 ?- parent(david, X).
 X = john.
 ```
+
+### Recursive
+
+```Prolog
+?- ancestor(jim, X).
+X = david ;
+X = zoe ;
+X = john ;
+false.
+```
